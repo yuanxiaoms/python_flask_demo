@@ -23,7 +23,7 @@ def upload_file():
       model = keras.models.load_model('cat_dog')
       predictions = model.predict(img_array)
       score = predictions[0]
-      ret = "This image is %.2f percent cat and %.2f percent dog." % (100 * (1 - score), 100 * score))
+      ret = ("This image is %.2f percent cat and %.2f percent dog." % (100 * (1 - score), 100 * score))
       return 'file uploaded successfully ' + ret
 
 if __name__ == '__main__':
