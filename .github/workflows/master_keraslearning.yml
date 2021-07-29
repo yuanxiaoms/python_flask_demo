@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'keraslearning'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_cebc88ec21ec4d8eaa5fdd247f1418a5 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_77e86e4c0a68414f8f8d4f6f8e04ace6 }}
